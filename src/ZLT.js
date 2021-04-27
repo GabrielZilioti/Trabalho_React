@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import './ZLT.css';
+import user from './Usuario.js';
 
 function ZLT() {
 
@@ -36,6 +37,12 @@ function ZLT() {
           <p>{telefone}</p>
         </div>
       </div>
+      <div className="texto_parcial">        
+           <div className="texto">          
+            <p>{user.nome}</p>           
+            <p>{user.ra}</p>         
+            </div>       
+          </div>
     </div>
     </>
   );
